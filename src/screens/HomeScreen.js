@@ -47,6 +47,13 @@ const HomeScreen = props => {
         }}
         title="Navigate to Square"
       />
+      <Button
+        color="#ddd"
+        onPress={() => {
+          navigation.navigate("Text");
+        }}
+        title="Navigate to Text Input"
+      />
     </View>
   );
 };
